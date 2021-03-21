@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* #region track */ 
+#track{
+background-color: rgb(83, 90, 92);
+background-image: url("https://cdna.artstation.com/p/assets/images/images/016/144/870/large/cgshare-book-ground-floor-003.jpg?1551084649");
+background-size: contain;
+width: 1400px;
+height: 700px;
+border: 7px solid rgb(255, 255, 255);
+margin: left;
+position: absolute;
+top: 200px;
+left: 100px;
+}
+
+    #track1{
+        width: 465px;
+        height: 100px;
+        background-image: url("https://lpc.opengameart.org/sites/default/files/oga-textures/desert.png");
+        background-size: contain;
+        background-color: rgb(255, 0, 149);
+        position: absolute;
+        top: 600px;
+        left: 0px;
+    }
+
+    #track2{
+        width: 100px;
+        height: 300px;
+        background-image: url("https://lpc.opengameart.org/sites/default/files/oga-textures/desert.png");
+        background-size: contain;
+        background-color: rgb(27, 129, 81);
+        position: absolute;
+        top: 300px;
+        left: 365px;
+    }
+    #track3{
+        width: 470px;
+        height: 100px;
+        background-image: url("https://lpc.opengameart.org/sites/default/files/oga-textures/desert.png");
+        background-size: contain;
+        background-color: rgb(129, 27, 32);
+        position: absolute;
+        top: 300px;
+        left: 465px;
+    }
+    #track4{
+        width: 100px;
+        height: 300px;
+        background-image: url("https://lpc.opengameart.org/sites/default/files/oga-textures/desert.png");
+        background-size: contain;
+        background-color: olive;
+        position: absolute;
+        top: 300px;
+        left: 935px;
+    }
+    #track5{
+        width: 465px;
+        height: 100px;
+        background-image: url("https://lpc.opengameart.org/sites/default/files/oga-textures/desert.png");
+        background-size: contain;
+        background-color: rebeccapurple;
+        position: absolute;
+        top: 600px;
+        left: 935px;
+    }
+    
+    #track6{
+        width: 470px;
+        height: 100px;
+        background-image: url("file:///C:/Users/joao/Desktop/td/arts/track%20texture2.jpg");
+        background-size: cover;
+        background-color: rgb(32, 169, 187);
+        position: absolute;
+        top: 600px;
+        left: 465px;
+    }
+/* #endregion */
+
+/* #region menu */ 
+#menu{
+    background-color: lightblue;
+    width: 300px;
+    height: 700px;
+    border: 7px solid rgb(255, 255, 255);
+    margin: left;
+    position: absolute;
+    top: 200px;
+    left: 1550px;
+}
+
+        #tower1{
+            width: 120px;
+            height: 120px;
+            background-color: rgb(7, 197, 255);
+            background-image: url("file:///C:/Users/joao/Desktop/td/arts/c4.gif");
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 160px;
+            left: 20px;
+        }
+
+        #tower2{
+            width: 120px;
+            height: 120px;
+            background-image: url("file:///C:/Users/joao/Desktop/td/arts/d6z6qgt-27f5ca74-a913-4403-b972-1df865dd06e3.gif");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: rgb(255, 0, 170);
+            position: absolute;
+            top: 160px;
+            left: 160px;
+        }
+        
+        #tower3{
+            width: 120px;
+            height: 120px;
+            background-image: url("file:///C:/Users/joao/Desktop/td/arts/d2u29rc-8f92a61d-f250-4251-ba29-efc0199f8cdb.gif");
+            background-color: rgb(71, 0, 185);
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 320px;
+            left: 20px;
+        }
+
+        #tower4{
+            width: 120px;
+            height: 120px;
+            background-color: rgb(32, 2, 36);
+            position: absolute;
+            top: 320px;
+            left: 160px;
+        }
+
+        #tower5{
+            width: 260px;
+            height: 140px;
+            background-color: rgb(255, 0, 0);
+            position: absolute;
+            top: 460px;
+            left: 20px;
+        }
+/* #endregion */
+
+/* #region monsters */ 
+#portal{
+    width: 200px;
+    height: 200px;
+    background-image: url("file:///C:/Users/joao/Desktop/td/arts/portal.gif");
+    background-size: contain;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 540px;
+    left: -50px;
+    z-index:10;
+    opacity: 0.5;
+}
+
+#skeleton0, #skeleton1, #skeleton2, #skeleton3, #skeleton4,
+#skeleton5, #skeleton6, #skeleton7, #skeleton8, #skeleton9{
+    width: 100px;
+    height: 100px;
+    background-image: url("file:///C:/Users/joao/Desktop/td/arts/skeleton.gif");
+    background-size: contain;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    z-index:9;
+    opacity: 0.5;
+}
+
+/* #endregion */
+
+/* #region bar */ 
+#bar{
+    background-color: lightblue;
+    width: 1400px;
+    height: 100px;
+    border: 7px solid rgb(255, 255, 255);
+    margin: left;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}   
+
+        #hpBarId{
+            color: rgb(255, 255, 255);
+            width: 200px;
+            height: 50px;
+            background-color: rgb(65, 13, 13);
+            position: absolute;
+            top: 10px;
+            left: 200px;
+        }
+
+        #moneyBarId{
+            color: rgb(255, 255, 255);
+            width: 200px;
+            height: 50px;
+            background-color: rgb(8, 44, 13);
+            position: absolute;
+            top: 10px;
+            left: 600px;
+        }
+/* #endregion */
+
+/* #region logo */ 
+    #logo{
+    background-color: lightblue;
+    width: 300px;
+    height: 100px;
+    border: 7px solid rgb(255, 255, 255);
+    /* background-image: url("https://i.pinimg.com/originals/de/38/3b/de383bebd4c1e60db91815149aef49ad.gif");
+    background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: left;
+    position: absolute;
+    top: 50px;
+    left: 1550px;
+}   
+/* #endregion */
+
+#mage{
+    width: 250px;
+    height: 250px;
+    background-image: url("file:///C:/Users/joao/Desktop/td/arts/boom.gif");
+    background-size: contain;
+    border: 1px solid rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 655px;
+    left: 290px;
+    transform: rotate(0deg);
+    
+}
+
+#mage2{
+    width: 50px;
+    height: 50px;
+    background-image: url("file:///C:/Users/joao/Desktop/td/arts/c4.gif");
+    background-size: contain;
+    border: 1px solid rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 531px;
+    left: 620px;
+   
+}
+
+
+.facingUp{
+    transform: rotate(180deg);  
+}
+
+.facingDown{
+    transform: rotate(0deg);
+}
+
+.facingLeft{
+    transform: rotate(90deg);
+}
+
+.facingRight{
+    transform: rotate(270deg);
+}
+
